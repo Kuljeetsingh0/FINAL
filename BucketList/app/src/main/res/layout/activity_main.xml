@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_launcher_background">
+
+    <!-- Top bar with your name and "Bucket List" -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#41c2d1"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Name"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/textViewBucketList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bucket List"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <!-- Other content of your main page goes here -->
+
+</RelativeLayout>

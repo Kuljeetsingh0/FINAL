@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <!-- Destination Name -->
+    <EditText
+        android:id="@+id/etDestinationName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Destination Name"
+        android:layout_margin="16dp"/>
+
+    <!-- Brief Description -->
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Brief Description"
+        android:layout_below="@id/etDestinationName"
+        android:layout_margin="16dp"/>
+
+    <!-- Ranking Dropdown -->
+    <Spinner
+        android:id="@+id/spinnerRanking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etDescription"
+        android:layout_margin="16dp"/>
+
+    <!-- Add Destination Button -->
+    <Button
+        android:id="@+id/btnAddDestination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Destination"
+        android:layout_below="@id/spinnerRanking"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+</RelativeLayout>
